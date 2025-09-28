@@ -49,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TestInt.sol": "Counter"
+			"week_1/TestInt.sol": "Counter"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -63,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"TestInt.sol": {
-			"keccak256": "0x34874e940115d9a41af9963acd204265c9463cdd3044c99e19d43e3b863ee9ed",
+		"week_1/TestInt.sol": {
+			"keccak256": "0x3e3f43a4fd23cf7a17be44257e5695d716985f38a9e94c9446c105b5ad524281",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5119572e231f5c7303dae5fca077bc1b5ed090df8db9eca47736db0a94a71e03",
-				"dweb:/ipfs/QmUZeYvwNUB4MMMQbNx8zREoPtBqbMxdLFGqkAvGZtkh1u"
+				"bzz-raw://a39a7ff58aaa7d4ae512aa9316d6e7a335cd143a1e8807c8b5d561b0a9d5b59f",
+				"dweb:/ipfs/Qmf2m34vjH4JdypV8LpgxZ9ffofzvi3uAgKmZi7y6jnZWj"
 			]
 		}
 	},

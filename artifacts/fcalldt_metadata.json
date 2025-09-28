@@ -6,13 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "add1",
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_x",
+						"type": "uint256[]"
+					}
+				],
+				"name": "fCalldata",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "pure",
@@ -20,15 +26,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "add2",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "fStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week_1/testOverflow.sol": "testOverflow"
+			"week_1/day6_fcalldata.sol": "fcalldt"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week_1/testOverflow.sol": {
-			"keccak256": "0x66ee54b60c21942bfb695bf2fd8780274cfbfc84d13cb52165da721d108256b6",
+		"week_1/day6_fcalldata.sol": {
+			"keccak256": "0x6f0548f8afc18434f7320a962760f666647edda2c4ba2e5fd98dd694994a3f9b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8c1959970dd3bf719d9db289c5f0093c5be3440bd7be50c66cad2eaa78c7cfcf",
-				"dweb:/ipfs/Qme9JHTeU77Hk8diAajAm8RJ45GxGtJWVXAxW43sec3aNE"
+				"bzz-raw://71e6abc02807d784475ac4e8cb2444a4de12b3ac22b6f9ce515d48c4818c1c09",
+				"dweb:/ipfs/QmSNLrdvV1m4u3CE2aVkBFcKgCdndTiAQKWmXdNxoqRBw7"
 			]
 		}
 	},

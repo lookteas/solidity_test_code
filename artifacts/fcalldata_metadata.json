@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week_1/day6_fcalldata.sol": "fcalldata"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week_1/day6_fcalldata.sol": {
+			"keccak256": "0xa35690d521a2f3047c8cf7205588cf82ca6e65058885dc447b725de72a8b3663",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://36f035851383136045585a4c3a44bcce443e3b05d8663f969b3d7664a16206db",
+				"dweb:/ipfs/QmYVZvTqLSjRNRJPhwvz5TUAXbLs1rUCmoNsdaPY3QkGS1"
+			]
+		}
+	},
+	"version": 1
+}
