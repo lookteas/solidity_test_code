@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 contract toArray {
     //定长数组
@@ -30,6 +30,11 @@ contract toArray {
     //push 只能用于变长类型的数组操作，不可用于定长数组
     function add(uint x) public {
         numbers.push(x);
+    }
+
+    //获取数组元素的值
+    function getNumbers(uint x) public view returns (uint){
+        return numbers[x];
     }
 
 }
